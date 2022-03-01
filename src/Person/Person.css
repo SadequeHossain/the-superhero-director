@@ -1,0 +1,40 @@
+.image-holder img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.person-holder{
+    border: 2px salmon solid;
+    
+    padding: 10px;
+    background-color: azure;
+    
+    width: 225px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+
+
+}
+.profile h5{
+    line-height: 1px;
+}
+
+.buy-btn img{
+    width: 10px;
+}
+
+.buy-btn button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: goldenrod;
+    font-weight: bold;
+    cursor: pointer;
+}
+.person-holder:hover{
+    width: 230px;
+    box-shadow: 5px 10px rgba(185, 153, 153, 0.267);
+}

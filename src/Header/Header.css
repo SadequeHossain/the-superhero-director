@@ -1,0 +1,14 @@
+.header-box{
+    
+    background-image: url("https://www.virtualumbrella.marketing/wp-content/uploads/2016/08/The-Tech-Expo.jpg");
+    margin-top: 0px;
+   
+    color: white;
+    height: 250px;
+}
+
+.header-box:hover{
+    box-shadow: 0 10px rgba(96, 84, 110, 0.144);
+    height: 255px;
+    color: rgb(190, 218, 243);
+}
