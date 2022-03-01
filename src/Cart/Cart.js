@@ -4,7 +4,7 @@ import './Cart.css'
 
 const Cart = (props) => {
 
-    const { img, name, payment } = props.cart;
+    const { img, name } = props.cart;
 
 
 
