@@ -5,16 +5,17 @@
 }
 
 .person-holder{
-    border: 2px salmon solid;
+    
     
     padding: 10px;
-    background-color: azure;
+    background-color: rgba(90, 80, 145, 0.678);
     
     width: 225px;
     margin-bottom: 20px;
     margin-right: 40px;
     margin-left: 40px;
     border-radius: 10px;
+    color: white;
 
 
 }
@@ -36,5 +37,5 @@
 }
 .person-holder:hover{
     width: 230px;
-    box-shadow: 5px 10px rgba(185, 153, 153, 0.267);
+    box-shadow: 5px 10px 10px 10px rgba(115, 90, 228, 0.555);
 }

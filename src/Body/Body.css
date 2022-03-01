@@ -1,14 +1,14 @@
 .body-Container{
 display: grid;
 grid-template-columns: 3fr 1fr;
-border: 1px solid green;
+
 
 
 background-image: url('https://thumbs.dreamstime.com/b/futuristic-hud-globe-world-global-technology-vector-background-network-digital-tech-192730786.jpg');
 }
 
 .participants{
-    border: 1px solid green;
+   
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-bottom: 10px;
@@ -19,11 +19,21 @@ background-image: url('https://thumbs.dreamstime.com/b/futuristic-hud-globe-worl
 }
 
 .cart-container{
-    border: 1px salmon solid;
+    
     margin-left: 20px;
 }
 
 .cart-header{
     border-bottom: 2px solid lightgrey;
     color: white;
+}
+
+.join-btn{
+    width: 75%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    background-color: goldenrod;
+    cursor: pointer;
 }

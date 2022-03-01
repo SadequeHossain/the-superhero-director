@@ -4,7 +4,7 @@ import Person from '../Person/Person';
 import './Body.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPerson } from '@fortawesome/free-solid-svg-icons'
+import { faPerson, faMoneyBill, faDollar } from '@fortawesome/free-solid-svg-icons'
 
 const Body = () => {
 
@@ -50,7 +50,7 @@ const Body = () => {
                 <div className='cart-header'>
                     <h3>Participants added</h3>
                     <p><FontAwesomeIcon icon={faPerson} /> Total Person Added: {carts.length}</p>
-                    <p>Total Cost: $ {cost} </p>
+                    <p><FontAwesomeIcon icon={faDollar} /> Total Cost: $ {cost} </p>
                 </div>
                 <div>
                     {
@@ -60,7 +60,7 @@ const Body = () => {
                     }
                 </div>
                 <div>
-                    <button>Join Now</button>
+                    <button className='join-btn'>Join Now</button>
                 </div>
             </div>
 
