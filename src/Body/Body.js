@@ -19,6 +19,8 @@ const Body = () => {
 
     }, [])
 
+    // new array created for the cart
+
     const handleCart = (speaker) => {
         const newCart = [...carts, speaker];
         setCart(newCart)
@@ -26,7 +28,7 @@ const Body = () => {
         // console.log(newCart);
     }
 
-
+    //   total cost calculated
     let cost = 0;
     for (const cart of carts) {
         cost = cost + cart.payment;
@@ -47,6 +49,9 @@ const Body = () => {
                 }
             </div>
             <div className='cart-container'>
+
+                {/* cart header */}
+
                 <div className='cart-header'>
                     <h3>Participants added</h3>
                     <p><FontAwesomeIcon icon={faPerson} /> Total Person Added: {carts.length}</p>

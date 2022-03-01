@@ -14,6 +14,8 @@ const Person = (props) => {
     const { name, img, age, company, country, position, payment } = props.speaker
 
     // console.log(props.speaker);
+    //  persons added in the body
+
     return (
         <div className='person-holder'>
             <div className='image-holder'>
