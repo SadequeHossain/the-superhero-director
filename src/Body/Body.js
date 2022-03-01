@@ -4,7 +4,7 @@ import Person from '../Person/Person';
 import './Body.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPerson, faMoneyBill, faDollar } from '@fortawesome/free-solid-svg-icons'
+import { faPerson, faDollar } from '@fortawesome/free-solid-svg-icons'
 
 const Body = () => {
 
